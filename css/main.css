@@ -39,7 +39,8 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
+.row + .row,
+.container + .container {
   margin-top: 16px;
 }
 
