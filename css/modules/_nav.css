@@ -1,0 +1,31 @@
+nav a {
+  text-decoration: none;
+}
+
+nav img {
+  width: 250px;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 65px;
+  align-items: center;
+  color: #dbff4c;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  nav {
+    font-size: 36px;
+  }
+}
