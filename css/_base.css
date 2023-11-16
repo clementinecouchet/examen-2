@@ -24,6 +24,8 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   background-color: #d50e4a;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 a {
@@ -38,12 +40,15 @@ video {
 }
 
 nav,
-h1 {
+h1,
+h2 {
   text-transform: uppercase;
 }
 
 nav,
-h1 {
+h1,
+h2,
+.slider {
   font-family: "Montserrat", sans-serif;
 }
 
