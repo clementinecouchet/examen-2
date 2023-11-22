@@ -41,14 +41,19 @@ video {
 
 nav,
 h1,
-h2 {
+h2,
+h3,
+.slider,
+.carte {
   text-transform: uppercase;
 }
 
 nav,
 h1,
 h2,
-.slider {
+.slider,
+h3,
+.carte {
   font-family: "Montserrat", sans-serif;
 }
 

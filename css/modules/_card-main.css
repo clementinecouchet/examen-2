@@ -1,0 +1,115 @@
+.img_1 {
+  width: 555px;
+  height: 243px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.img_2 {
+  width: 555px;
+  height: 196px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.img_3 {
+  width: 555px;
+  height: 256px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.img_4 {
+  width: 555px;
+  height: 306px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .img_4 {
+    height: 328px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img_4 {
+    height: 306px;
+  }
+}
+
+.scnd-clm {
+  margin-top: 76px;
+  max-width: 555px;
+}
+
+.first-clm {
+  max-width: 554px;
+}
+
+h3 {
+  color: #dbff4c;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 83.9%; /* 25.17px */
+  letter-spacing: 3.15px;
+  padding: 34px 0 45px 0;
+}
+
+@media (min-width: 768px) {
+  h3 {
+    color: #dbff4c;
+    text-align: left;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 83.9%;
+    letter-spacing: 6.825px;
+    padding: 76px 0 105px 0;
+  }
+}
+
+.texte-cuisine {
+  color: #dbff4c;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 34px;
+}
+
+@media (min-width: 992px) {
+  .texte-cuisine {
+    font-size: 21px;
+    padding: 81px 0 84px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .texte-cuisine {
+    font-size: 17px;
+    padding: 51px 0 54px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .img_1,
+  .img_3,
+  .img_4 {
+    display: none;
+  }
+}
+
+.carte {
+  color: #c1c8f2;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 800;
+  text-decoration-line: underline;
+  padding: 53px 0 34px 0;
+}
+
+@media (min-width: 768px) {
+  .carte {
+    font-size: 35px;
+    padding: 82px 0 101px 0;
+  }
+}
