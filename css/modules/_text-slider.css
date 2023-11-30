@@ -4,6 +4,10 @@
   animation: Scroll 10s linear infinite;
 }
 
+.big .txt {
+  animation-duration: 20s;
+}
+
 @keyframes Scroll {
   0% {
     transform: translateX(0%);
@@ -19,10 +23,17 @@
   font-weight: 600;
   display: flex;
   align-items: center;
+  margin-top: 34px;
 }
 
 @media (min-width: 768px) {
   .txt {
     font-size: 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slider {
+    margin-top: 76px;
   }
 }

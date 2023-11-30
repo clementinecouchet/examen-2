@@ -27,24 +27,43 @@
 }
 
 @media (min-width: 768px) {
-  .img_4 {
-    height: 328px;
+  .fr .img_4 {
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .jap .img_4,
+  .eth .img_4 {
+    height: 370px;
   }
 }
 
 @media (min-width: 992px) {
-  .img_4 {
-    height: 306px;
+  .fr .img_4,
+  .jap .img_4,
+  .eth .img_4 {
+    height: 328px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .jap .img_4 {
+    height: 328px;
   }
 }
 
 .scnd-clm {
-  margin-top: 76px;
+  margin-top: 53px;
   max-width: 555px;
 }
 
 .first-clm {
   max-width: 554px;
+}
+
+.right h3 {
+  text-align: right;
 }
 
 h3 {
@@ -62,6 +81,18 @@ h3 {
     color: #dbff4c;
     text-align: left;
     font-size: 65px;
+    font-weight: 800;
+    line-height: 83.9%;
+    letter-spacing: 6.825px;
+    padding: 76px 0 105px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .eth h3 {
+    color: #dbff4c;
+    text-align: left;
+    font-size: 58px;
     font-weight: 800;
     line-height: 83.9%;
     letter-spacing: 6.825px;
@@ -104,7 +135,7 @@ h3 {
   font-size: 23px;
   font-weight: 800;
   text-decoration-line: underline;
-  padding: 53px 0 34px 0;
+  padding: 33px 0 34px 0;
 }
 
 @media (min-width: 768px) {
