@@ -30,12 +30,13 @@
   .fr .img_4 {
     height: 350px;
   }
-}
 
-@media (min-width: 768px) {
   .jap .img_4,
   .eth .img_4 {
     height: 370px;
+  }
+  .right h3 {
+    text-align: right;
   }
 }
 
@@ -62,10 +63,6 @@
   max-width: 554px;
 }
 
-.right h3 {
-  text-align: right;
-}
-
 h3 {
   color: #dbff4c;
   text-align: left;
@@ -89,7 +86,8 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .eth h3 {
+  .eth h3,
+  .mex h3 {
     color: #dbff4c;
     text-align: left;
     font-size: 58px;
@@ -121,7 +119,7 @@ h3 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .img_1,
   .img_3,
   .img_4 {

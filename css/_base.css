@@ -44,7 +44,8 @@ h1,
 h2,
 h3,
 .slider,
-.carte {
+.carte,
+.contact {
   text-transform: uppercase;
 }
 
@@ -53,12 +54,19 @@ h1,
 h2,
 .slider,
 h3,
-.carte {
+.carte,
+.contact {
   font-family: "Montserrat", sans-serif;
 }
 
 p {
   font-family: "Space Mono", monospace;
+  font-style: normal;
+}
+
+.inde {
+  font-family: "Tiro Devanagari Hindi", serif;
+  padding-top: 15px;
 }
 
 /*.row + .row,

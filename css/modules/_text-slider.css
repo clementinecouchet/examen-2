@@ -30,9 +30,7 @@
   .txt {
     font-size: 180px;
   }
-}
 
-@media (min-width: 768px) {
   .slider {
     margin-top: 76px;
   }
