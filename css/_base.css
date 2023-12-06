@@ -24,8 +24,6 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   background-color: #d50e4a;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 a {
@@ -45,7 +43,8 @@ h2,
 h3,
 .slider,
 .carte,
-.contact {
+.contact,
+h4 {
   text-transform: uppercase;
 }
 
@@ -55,7 +54,8 @@ h2,
 .slider,
 h3,
 .carte,
-.contact {
+.contact,
+h4 {
   font-family: "Montserrat", sans-serif;
 }
 

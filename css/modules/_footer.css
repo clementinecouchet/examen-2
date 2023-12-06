@@ -5,6 +5,7 @@
   text-align: center;
   padding: 30px 45px 30px 45px;
   margin-top: 34px;
+  margin-bottom: 52px;
 }
 
 .contact-bg {
@@ -23,4 +24,88 @@
     font-size: 180px;
     margin-top: 68px;
   }
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 31px;
+  padding-right: 31px;
+  padding-bottom: 25px;
+  width: 300px;
+}
+
+.infos a {
+  text-decoration: none;
+}
+
+.text-footer-info {
+  color: #000;
+  font-size: 14px;
+}
+
+.reservation {
+  color: var(--textes, #dbff4c);
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 14px;
+}
+
+.all-info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jour {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 121px;
+  padding-bottom: 8px;
+  width: 355px;
+}
+
+.horaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 57px;
+}
+
+.terre-mere {
+  color: var(--textes, #dbff4c);
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bold {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.thin {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lundi {
+  gap: 165px;
 }
