@@ -3,7 +3,7 @@
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  padding: 30px 45px 30px 45px;
+  padding: 30px 45px 30px 55px;
   margin-top: 34px;
   margin-bottom: 52px;
 }
@@ -14,8 +14,14 @@
 
 @media (min-width: 768px) {
   .contact {
-    font-size: 130px;
-    padding: 0;
+    font-size: 120px;
+    padding: 40px;
+  }
+
+  .contact-reserv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -52,6 +58,7 @@
   text-transform: uppercase;
   text-align: center;
   padding: 14px;
+  white-space: nowrap;
 }
 
 .all-info {
@@ -65,9 +72,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 121px;
+  gap: 125px;
   padding-bottom: 8px;
-  width: 355px;
+  width: 325px;
 }
 
 .horaire {
@@ -81,11 +88,8 @@
 .terre-mere {
   color: var(--textes, #dbff4c);
   text-align: center;
-  font-family: Space Mono;
+  margin-bottom: 25px;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .bold {
@@ -107,5 +111,31 @@
 }
 
 .lundi {
-  gap: 165px;
+  gap: 230px;
+}
+
+.dim {
+  gap: 175px;
+}
+
+.mar-jeu {
+  gap: 132px;
+}
+
+a:hover .text-footer-info {
+  color: #c1c8f2;
+}
+
+@media (min-width: 768px) {
+  .reservation {
+    margin: 0px;
+  }
+
+  .text-footer-info {
+    font-size: 21px;
+  }
+
+  .icon {
+    max-width: 30px;
+  }
 }

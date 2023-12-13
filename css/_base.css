@@ -59,7 +59,8 @@ h4 {
   font-family: "Montserrat", sans-serif;
 }
 
-p {
+p,
+.terre-mere {
   font-family: "Space Mono", monospace;
   font-style: normal;
 }
@@ -67,6 +68,10 @@ p {
 .inde {
   font-family: "Tiro Devanagari Hindi", serif;
   padding-top: 15px;
+}
+
+a:hover .carte {
+  color: #c1c8f2;
 }
 
 /*.row + .row,
