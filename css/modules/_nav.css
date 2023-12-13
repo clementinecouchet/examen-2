@@ -1,5 +1,22 @@
 nav a {
   text-decoration: none;
+  position: relative;
+}
+
+nav a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  width: 0%;
+  left: 0px;
+  height: 6px;
+  transition: 0.25s cubic-bezier(0.72, -0.01, 0.19, 0.92);
+  background: #dbff4c;
+}
+
+a:hover:after {
+  width: 100%;
 }
 
 header {
@@ -18,20 +35,27 @@ nav img {
   margin-top: 25px;
 }
 
-nav {
-  align-items: center;
-  color: #dbff4c;
-  font-size: 25px;
-  font-weight: 800;
+@media (max-width: 537px) {
+  .cartes-contacts {
+    justify-content: space-between;
+    margin-left: 235px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 58px;
+    gap: 5px;
+    font-size: 23px;
+  }
 }
 
-.cartes-contacts {
-  justify-content: space-between;
-  margin-left: 255px;
-  display: flex;
-  flex-direction: row;
-  padding-top: 58px;
-  gap: 0px;
+@media (min-width: 537px) {
+  .cartes-contacts {
+    justify-content: space-between;
+    margin-left: 255px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 58px;
+    gap: 0px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -43,6 +67,13 @@ nav {
     padding-top: 58px;
     gap: 130px;
   }
+}
+
+nav {
+  align-items: center;
+  color: #dbff4c;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 @media (min-width: 992px) {
