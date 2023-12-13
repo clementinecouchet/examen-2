@@ -2,26 +2,9 @@ nav a {
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 65px;
-  align-items: center;
-  color: #dbff4c;
-  font-size: 25px;
-  font-weight: 800;
-}
-
 header {
   margin: 0;
   padding: 0;
-}
-
-@media (min-width: 992px) {
-  nav {
-    font-size: 36px;
-  }
 }
 
 nav img {
@@ -30,10 +13,85 @@ nav img {
   flex-shrink: 0;
 }
 
+.navigation {
+  position: fixed;
+  margin-top: 25px;
+}
+
+nav {
+  align-items: center;
+  color: #dbff4c;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.cartes-contacts {
+  justify-content: space-between;
+  margin-left: 255px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 58px;
+  gap: 0px;
+}
+
+@media (min-width: 768px) {
+  .cartes-contacts {
+    justify-content: space-between;
+    margin-left: 340px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 58px;
+    gap: 130px;
+  }
+}
+
 @media (min-width: 992px) {
   nav img {
     width: 310.098px;
     height: 118.508px;
     flex-shrink: 0;
+  }
+
+  nav {
+    font-size: 36px;
+  }
+
+  .cartes-contacts {
+    justify-content: space-between;
+    margin-left: 435px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 65px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cartes-contacts {
+    justify-content: space-between;
+    margin-left: 490px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 65px;
+    gap: 230px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .cartes-contacts {
+    justify-content: space-between;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 65px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cartes-contacts {
+    justify-content: space-between;
+    margin-left: 570px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 65px;
   }
 }

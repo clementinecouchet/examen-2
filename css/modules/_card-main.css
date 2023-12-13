@@ -27,12 +27,25 @@
 }
 
 @media (min-width: 768px) {
+  .mex .img_4 {
+    height: 345px;
+  }
+
   .fr .img_4 {
+    height: 353px;
+  }
+
+  .mar .img_4 {
     height: 350px;
   }
 
+  .grec .img_4 {
+    height: 390px;
+  }
+
   .jap .img_4,
-  .eth .img_4 {
+  .eth .img_4,
+  .lib .img_4 {
     height: 370px;
   }
   .right h3 {
@@ -42,15 +55,39 @@
 
 @media (min-width: 992px) {
   .fr .img_4,
-  .jap .img_4,
-  .eth .img_4 {
+  .mar .img_4 {
     height: 328px;
+  }
+
+  .mex .img_4 {
+    height: 325px;
+  }
+
+  .eth .img_2 {
+    height: 243px;
+  }
+
+  .grec .img_2,
+  .lib .img_2 {
+    height: 237px;
+  }
+
+  .jap .img_4 {
+    height: 350px;
   }
 }
 
 @media (min-width: 1220px) {
   .jap .img_4 {
     height: 328px;
+  }
+
+  .mar .img_4 {
+    height: 307px;
+  }
+
+  .mex .img_4 {
+    height: 303px;
   }
 }
 
@@ -86,8 +123,8 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .eth h3,
-  .mex h3 {
+  .ethiopie,
+  .mexique {
     color: #dbff4c;
     text-align: left;
     font-size: 58px;
