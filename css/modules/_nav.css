@@ -2,12 +2,6 @@ nav a {
   text-decoration: none;
 }
 
-nav img {
-  width: 250px;
-  height: 90px;
-  flex-shrink: 0;
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -27,5 +21,19 @@ header {
 @media (min-width: 992px) {
   nav {
     font-size: 36px;
+  }
+}
+
+nav img {
+  width: 230px;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+@media (min-width: 992px) {
+  nav img {
+    width: 310.098px;
+    height: 118.508px;
+    flex-shrink: 0;
   }
 }
